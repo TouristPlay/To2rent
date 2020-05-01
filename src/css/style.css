@@ -25,7 +25,7 @@ body {
     padding: 88px 0 60px 0;
 }
 
-.header__item{
+.nav__item{
     display: flex;
     justify-content: center;
 
@@ -35,13 +35,13 @@ body {
     border-top: 2px solid #C4C4C4;
 }
 
-.header__item-list {
+.nav__item-list {
     height: 100px;
     width: 300px;
 }
 
 
-.header__link {
+.nav__link {
     font-size: 24px;
     line-height: 28px;
     text-decoration: none;
@@ -50,21 +50,22 @@ body {
     font-weight: normal;
     border-left: 1px solid #C4C4C4;
     border-right: 1px solid #C4C4C4;
-    padding: 34px 120px 38px 111px;
+    padding: 34px  38px ;
     transition: all .5s;
+    text-align: center;
 }
 
-.header__link--active,
-.header__link:hover {
+.nav__link--active,
+.nav__link:hover {
     color: #fff;
     background: #000;
 }
 
-.header__item-list:first-child {
+.nav__item-list:first-child {
     border-left: 1px solid #C4C4C4;
 }
 
-.header__item-list:last-child {
+.nav__item-list:last-child {
     border-right: 1px solid #C4C4C4;
 }
 
@@ -215,14 +216,14 @@ body {
     color: #888888;
 }
 
-.apportament__button {
+/* .apportament__button {
     width: 150px;
     height: 50px;
     background: #C4C4C4;
     border: 2px solid #C4C4C4;
     padding: 13px 51px 13px 46px;
     margin-left: 65px;
-}
+} */
 
 .apportament__button-item {
     text-decoration: none;
@@ -230,6 +231,11 @@ body {
     font-size: 18px;
     line-height: 24px;
     box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #C4C4C4;
+    border: 2px solid #C4C4C4;
+    padding: 13px 51px 13px 46px;
 }
 
 /*--------------APPORTAMENT__END----------------------------*/
@@ -295,7 +301,7 @@ body {
     content: "";
     width: 35px;
     height: 35px;
-    right: 70%;
+    left: 0;
     background: url(../img/description/arrow.svg);
     position: absolute;
 }
